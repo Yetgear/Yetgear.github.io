@@ -26,7 +26,7 @@ Another solution for real time Global Illumination. Similar to Unreal Engine 4's
 <img src="https://raw.githubusercontent.com/Yetgear/Yetgear.github.io/master/resume-svgf-space.jpg" height="72px" align="right">
 A real time ray tracing denoiser to reduce the noise on Ray Tracing image. The denoiser is capable to work on a wide range of ray tracing techniques and produce a denoised image with fine quality though only one sample ray is applied to per pixel.
 
-**And More advanced rendering techniques are available here [github](https://www.github.com) (coming soon..)**
+#### And More advanced rendering techniques are available here [github](https://www.github.com) (coming soon..)**
 
 ### VPU: Volume Processing Unit
 
