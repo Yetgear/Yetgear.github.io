@@ -17,9 +17,11 @@ a real time path tracing pipeline implemented on Sparse Voxel Octree, which cons
 #### Physical Base Rendering with Image Based Lighting 
 <img src="https://raw.githubusercontent.com/Yetgear/Yetgear.github.io/master/resume-pbr-ibl.PNG"  height="72px" align="right">
 A standard implemention of PBR Rendering pipeline and Image Based Lighting. 
+
 #### Signed Distance Field Global Illumination 
 <img src="https://raw.githubusercontent.com/Yetgear/Yetgear.github.io/master/resume-sdf-gi.jpg" height="72px" align="right">
 Another solution for real time Global Illumination. Similar to Unreal Engine 4's design, the render pipeline renders the SDF data transfered from the origin triangle data by ray marching. Because the sdf data is stored in 3D textures, the render pipeline is able to ultilize the Tri-lateral filter to filte the distance data and achieve fast frame rate.
+
 #### SVGF-space: the space part of SVGF Filter
 <img src="https://raw.githubusercontent.com/Yetgear/Yetgear.github.io/master/resume-svgf-space.jpg" height="72px" align="right">
 A real time ray tracing denoiser to reduce the noise on Ray Tracing image. The denoiser is capable to work on a wide range of ray tracing techniques and produce a denoised image with fine quality though only one sample ray is applied to per pixel.
