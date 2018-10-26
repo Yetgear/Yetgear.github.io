@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+**[Home](https://yetgear.github.io/)**    **Project**
 
-You can use the [editor on GitHub](https://github.com/Yetgear/Yetgear.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+I'm currently a final year student in School of Automation at BJUT, advised by Haiying Yuan and Pengyu Liu. My research interests are computer graphics, compiler design, computer architecture.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# Selected Projects
 
-- Bulleted
-- List
+### My Render Engine
 
-1. Numbered
-2. List
+#### Sparse Voxel Octree Path Tracing
+ <img src="https://raw.githubusercontent.com/Yetgear/Yetgear.github.io/master/resume-rtgi-1.PNG" height="72px" align="right">  
+a real time path tracing pipeline implemented on Sparse Voxel Octree, which consists of GPU Voxelization pass, Sparse Octree Building pass, Data Filling Pass and path tracing pass. SVOPT runs fairly 100 fps on my computer, which reaches real time frame rates standard. This render pipeline could combine with rasterzation to provide great quality CG effect.
 
-**Bold** and _Italic_ and `Code` text
+#### Physical Base Rendering with Image Based Lighting 
+<img src="https://raw.githubusercontent.com/Yetgear/Yetgear.github.io/master/resume-pbr-ibl.PNG"  height="72px" align="right">
+A standard implemention of PBR Rendering pipeline and Image Based Lighting. 
+#### Signed Distance Field Global Illumination 
+<img src="https://raw.githubusercontent.com/Yetgear/Yetgear.github.io/master/resume-sdf-gi.jpg" height="72px" align="right">
+Another solution for real time Global Illumination. Similar to Unreal Engine 4's design, the render pipeline renders the SDF data transfered from the origin triangle data by ray marching. Because the sdf data is stored in 3D textures, the render pipeline is able to ultilize the Tri-lateral filter to filte the distance data and achieve fast frame rate.
+#### SVGF-space: the space part of SVGF Filter
+<img src="https://raw.githubusercontent.com/Yetgear/Yetgear.github.io/master/resume-svgf-space.jpg" height="72px" align="right">
+A real time ray tracing denoiser to reduce the noise on Ray Tracing image. The denoiser is capable to work on a wide range of ray tracing techniques and produce a denoised image with fine quality though only one sample ray is applied to per pixel.
 
-[Link](url) and ![Image](src)
-```
+**And More advanced rendering techniques are available here [github](https://www.github.com) (coming soon..)**
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### VPU: Volume Processing Unit
 
-### Jekyll Themes
+An hardware implementation (IP Core) of SVO with slightly modification.  VPU, as same as Nvidia's RT Core, is designed to accelerate iteration of a tree structure. Whereas VPU can do more than RT cores, the former is able to accelerate not only Ray Tracing, but also fluid simulation, SLAM, 3-dimension object recognition/ segmentation and so on. Currently VPU is implemented in Xilinx SDSoc.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Yetgear/Yetgear.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### WorldScript  
 
-### Support or Contact
+ a Heterogeneous computing and Geometric Representation Language run simultaneously on CPU and GPU. The GPU function of this Language is based on Vulkan Compute Shader and the CPU function is supported by LLVM. It takes the advantage of Signed Distance Function to represent and operate geometries. Currently the development of WorldScript  is still in a early stage, but functions listed above has been implemented, now I am working on the improvement of the structure robustness and overall performance. 
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Car Chassis Inspector
+
+A robot which can inspect whether there is something abnormal on the chassis of target car by splice the image data captured by camera and then transfer to ground station to check whether there is something wrong on the chassis. The robot also equipped with a ground station implemented on Qt, which provides the function includes ground station server and client server on arm board, the driver of the arm board camera, the task scheduler of arm board, the picture splicer.
+<u>All those Functions made entirely on my own.</u> 
+
+
+
+#### A complete list can be found [here](https://www.github.com).
