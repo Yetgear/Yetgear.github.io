@@ -14,7 +14,7 @@ I'm currently a final year student in School of Automation at BJUT, advised by H
  <img src="https://raw.githubusercontent.com/Yetgear/Yetgear.github.io/master/resume-rtgi-1.PNG" height="72px" align="right">  
 a real time path tracing pipeline implemented on Sparse Voxel Octree, which consists of GPU Voxelization pass, Sparse Octree Building pass, Data Filling Pass and path tracing pass. SVOPT runs fairly 100 fps on my computer, which reaches real time frame rates standard. This render pipeline could combine with rasterzation to provide great quality CG effect.
 
-#### Physical Base Rendering with Image Based Lighting 
+#### Physical Based Rendering with Image Based Lighting 
 <img src="https://raw.githubusercontent.com/Yetgear/Yetgear.github.io/master/resume-pbr-ibl.PNG"  height="72px" align="right">
 A standard implemention of PBR Rendering pipeline and Image Based Lighting. 
 
