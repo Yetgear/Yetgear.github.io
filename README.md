@@ -11,7 +11,7 @@ I'm currently a final year student in School of Automation at BJUT, advised by H
 ### My Render Engine
 
 #### Sparse Voxel Octree Path Tracing
- <img src="https://raw.githubusercontent.com/Yetgear/Yetgear.github.io/master/resume-rtgi-1.PNG" height="72px" align="right">  
+<img src="https://raw.githubusercontent.com/Yetgear/Yetgear.github.io/master/resume-rtgi-1.PNG" height="72px" align="right">  
 a real time path tracing pipeline implemented on Sparse Voxel Octree, which consists of GPU Voxelization pass, Sparse Octree Building pass, Data Filling Pass and path tracing pass. SVOPT runs fairly 100 fps on my computer, which reaches real time frame rates standard. This render pipeline could combine with rasterzation to provide great quality CG effect.
 
 #### Physical Based Rendering with Image Based Lighting 
@@ -34,7 +34,7 @@ An hardware implementation (IP Core) of SVO with slightly modification.  VPU, as
 
 ### WorldScript  
 
- a Heterogeneous computing and Geometric Representation Language run simultaneously on CPU and GPU. The GPU function of this Language is based on Vulkan Compute Shader and the CPU function is supported by LLVM. It takes the advantage of Signed Distance Function to represent and operate geometries. Currently the development of WorldScript  is still in a early stage, but functions listed above has been implemented, now I am working on the improvement of the structure robustness and overall performance. 
+a Heterogeneous computing and Geometric Representation Language run simultaneously on CPU and GPU. The GPU function of this Language is based on Vulkan Compute Shader and the CPU function is supported by LLVM. It takes the advantage of Signed Distance Function to represent and operate geometries. Currently the development of WorldScript  is still in a early stage, but functions listed above has been implemented, now I am working on the improvement of the structure robustness and overall performance. 
 
 ### Car Chassis Inspector
 
