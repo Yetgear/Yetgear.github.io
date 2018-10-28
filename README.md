@@ -11,7 +11,7 @@ I'm currently a final year student in School of Automation at BJUT, advised by H
 ### My Render Engine
 
 #### Sparse Voxel Octree Path Tracing
-<img src="https://raw.githubusercontent.com/Yetgear/Yetgear.github.io/master/resume-rtgi-1.PNG" height="144px" align="right">  
+<img src="https://raw.githubusercontent.com/Yetgear/Yetgear.github.io/master/resume-rtgi-1.PNG" height="72px" align="right">  
 A standard implemention of PBR Rendering pipeline and Image Based Lighting. 
 
 #### Physical Based Rendering with Image Based Lighting 
