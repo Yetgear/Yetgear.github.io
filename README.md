@@ -34,7 +34,7 @@ a real-time physics engine solution, which enables the system to be stable in la
 
 #### Voxel Cone Tracing
 
-<img src="https://raw.githubusercontent.com/Yetgear/Yetgear.github.io/master/resume-vxgi.PNG" height="72px" align="right">  
+<img src="https://raw.githubusercontent.com/Yetgear/Yetgear.github.io/master/resume-vxgi.png" height="72px" align="right">  
 a real-time global illumination solution for graphics engine, which provides rough reflection and irradiance of the scene to render. It firstly uses GPU Conservation Rasterization to voxelize the scene to provide the 3D GBuffer, then fetch the global render data in the scene by cone tracing. This technique enables the graphics developers to achieve not only the tradition GI effect, but also manage to do volume rendering in graphics application. 
 
 #### Sparse Voxel Octree Path Tracing
