@@ -14,7 +14,7 @@ I'm graduated from the Information Department in BJUT, advised by Haiying Yuan, 
 
 <img src="https://raw.githubusercontent.com/Yetgear/Yetgear.github.io/master/resume-rtx.PNG" height="72px" align="right"> 
 
-Powered by Nvidia RTX technology, this graphics pipeline manages to achieve ray tracing in real-time. It is able to render the specular of the light and shadows in the scene and provide great visual quality. This techniques enables the graphics developers to render the scene with realistic quality in real-time, thus it is the ultimate solution for real-time graphics.
+Powered by Nvidia RTX technology, this graphics pipeline manages to achieve ray tracing in real-time. It is able to render the specular of the light, AO, irradiance and soft shadows in the scene and provide great visual quality. This techniques enables the graphics developers to render the scene with realistic quality in real-time, thus it is the ultimate solution for real-time graphics.
 
 #### Fast Fourier Transformation Based Ocean
 
