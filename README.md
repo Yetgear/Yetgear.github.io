@@ -2,13 +2,39 @@
 
 
 
-I'm graduated from the Information Department in BJUT, advised by Haiying Yuan, Pengyu Liu and Abraham Compbell. My research interests are computer graphics, compiler design, computer architecture.
+I'm currently a Ph.D. candidate in University College Dublin mentored by Abraham G. Campbell with research interests of real-time rendering system development, unified shading language development, large-scale scene visualization. 
 
 
 
 # Selected Projects
 
-### My Render Engine
+### VirtualVoxel - Ph.D. Research
+
+#### VirtualVoxel: Render 4194304^3 (4M^3) resolution voxel scene at 167 fps under 4K
+<img src="https://raw.githubusercontent.com/Yetgear/Yetgear.github.io/master/resume-virtualvoxel.PNG" height="72px" align="right">
+
+#### VirtualVoxelCrowd: Render 1 Biilion human characters at real-time under 4K
+<img src="https://raw.githubusercontent.com/Yetgear/Yetgear.github.io/master/resume-virtualvoxelcrowd.PNG" height="72px" align="right">
+
+### My Render Engine - Ph.D. Project
+<img src="https://raw.githubusercontent.com/Yetgear/Yetgear.github.io/master/resume-new-engine.PNG" height="72px" align="right">
+
+#### Virtual Shadow Map
+
+#### Screen Space Reflection & Shadow & AO
+
+#### Visibility Culling
+
+### Unified Graphics Language - Ph.D. Project
+<img src="https://raw.githubusercontent.com/Yetgear/Yetgear.github.io/master/resume-ugl.PNG" height="72px" align="right">
+
+#### Write CPU & GPU Code In The Same Language
+#### RenderGraph
+#### Static Code Validation
+#### Virtual Shader Table for Specialization
+
+
+### My Render Engine - Undergraduate Project
 
 #### Real-time Ray Tracing
 
@@ -59,14 +85,7 @@ A real time ray tracing denoiser to reduce the noise on Ray Tracing image. The d
 
 An hardware implementation (IP Core) of SVO with slightly modification.  VPU, as same as Nvidia's RT Core, is designed to accelerate iteration of a tree structure. Whereas VPU can do more than RT cores, the former is able to accelerate not only Ray Tracing, but also fluid simulation, SLAM, 3-dimension object recognition/ segmentation and so on. Currently VPU is implemented in Xilinx SDSoc.
 
-### WorldScript  
 
- a Heterogeneous computing and Geometric Representation Language run simultaneously on CPU and GPU. The GPU function of this Language is based on Vulkan Compute Shader and the CPU function is supported by LLVM. It takes the advantage of Signed Distance Function to represent and operate geometries. Currently the development of WorldScript  is still in a early stage, but functions listed above has been implemented, now I am working on the improvement of the structure robustness and overall performance. 
-
-### Car Chassis Inspector
-
-A robot which can inspect whether there is something abnormal on the chassis of target car by splice the image data captured by camera and then transfer to ground station to check whether there is something wrong on the chassis. The robot also equipped with a ground station implemented on Qt, which provides the function includes ground station server and client server on arm board, the driver of the arm board camera, the task scheduler of arm board, the picture splicer.
-<u>All those Functions made entirely on my own.</u> 
 
 
 
